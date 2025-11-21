@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css"/>
+    <title>Soul Eater Quiz</title>
+    
+</head>
+<body>
+
+<h1>Soul Eater Quiz</h1>
+
+<form id="quizForm">
+
+    <!-- Multiple Choice 1 -->
+    <div class="question">
+        <p><strong>1. Who is Maka's weapon partner?</strong></p>
+        <label><input type="radio" name="q1" value="Soul"> Soul Evans</label><br>
+        <label><input type="radio" name="q1" value="BlackStar"> Black☆Star</label><br>
+        <label><input type="radio" name="q1" value="Kid"> Death the Kid</label><br>
+        <label><input type="radio" name="q1" value="Blair"> Blair</label>
+    </div>
+
+    <!-- Multiple Choice 2 -->
+    <div class="question">
+        <p><strong>2. What is Death the Kid obsessed with?</strong></p>
+        <label><input type="radio" name="q2" value="Symmetry"> Symmetry</label><br>
+        <label><input type="radio" name="q2" value="Speed"> Speed</label><br>
+        <label><input type="radio" name="q2" value="Training"> Training</label><br>
+        <label><input type="radio" name="q2" value="Money"> Money</label>
+    </div>
+
+    <!-- True/False 1 -->
+    <div class="question">
+        <p><strong>3. TRUE or FALSE: Black☆Star wants to surpass the gods.</strong></p>
+        <label><input type="radio" name="q3" value="true"> True</label><br>
+        <label><input type="radio" name="q3" value="false"> False</label>
+    </div>
+
+    <!-- True/False 2 -->
+    <div class="question">
+        <p><strong>4. TRUE or FALSE: Blair is actually a witch.</strong></p>
+        <label><input type="radio" name="q4" value="true"> True</label><br>
+        <label><input type="radio" name="q4" value="false"> False</label>
+    </div>
+
+    <!-- Math Question -->
+    <div class="question">
+        <p><strong>5. Math Time: If the DWMA needs 99 Kishin Egg souls + 1 Witch soul to make a Death Scythe, how many total souls are needed?</strong></p>
+        <input type="number" id="q5">
+    </div>
+
+    <!-- String Question -->
+    <div class="question">
+        <p><strong>6. What animal does Blair look like? (Type the word)</strong></p>
+        <input type="text" id="q6">
+    </div>
+
+    <!-- Color Picker -->
+    <div class="question">
+        <p><strong>7. Pick the color of Soul's eye when he goes into "Black Blood" mode.</strong><br>(Hint: It's the color of madness!)</p>
+        <input type="color" id="q7">
+    </div>
+
+    <button type="button" id="submitBtn">Submit Quiz</button>
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
