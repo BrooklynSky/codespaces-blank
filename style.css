@@ -7,7 +7,8 @@
         }
 
         body {
-            background: linear-gradient(135deg, #0a0a0a, #222, #0a0a0a);
+            /* background: linear-gradient(135deg, #0a0a0a, #222, #0a0a0a); */
+            background-image: url("images.jpg");
             color: var(--light);
             font-family: "Trebuchet MS", sans-serif;
             padding: 25px;
