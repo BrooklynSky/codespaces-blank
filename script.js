@@ -24,10 +24,11 @@
         // String question
         const q6 = document.querySelector('#q6').value.trim().toLowerCase();
         if (q6 === "cat") score++;
+        // else if (q6 === "Cat") score++;
 
-        // Color picker (Black Blood = red eyes)
+        // Color picker 
         const q7 = document.querySelector('#q7').value.toLowerCase();
-        if (q7 === "#ff0000") score++;
+        if (q7 === "#bb1515ff") score++;
 
         document.querySelector('#result').textContent = 
             "You scored " + score + " out of 7!";
